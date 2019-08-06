@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onError(call: Call<*>, t: Throwable) {
-                Log.e("NETWORK", "Unable to Connec to ${t.message}")
+                Log.e("NETWORK", "Unable to Connect to ${t.message}")
             }
         })
     }
